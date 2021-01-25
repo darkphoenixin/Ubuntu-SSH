@@ -1,1 +1,7 @@
-echo this can run commands in terminal tho
+apt-get install software-properties-common
+
+add-apt-repository ppa:openjdk-r/ppa
+
+apt-get update
+
+apt-get install openjdk-8-jre
